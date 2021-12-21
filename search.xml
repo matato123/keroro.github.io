@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo初识</title>
+    <url>/2021/12/20/Hexo%E5%88%9D%E8%AF%86/</url>
+    <content><![CDATA[<ul>
+<li><p>一直想记录下生活正好就记录下搭建HEXO的步骤吧</p>
+<h2 id="HEXO"><a href="#HEXO" class="headerlink" title="HEXO"></a>HEXO</h2><blockquote>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+</blockquote>
+<ul>
+<li><p>安装hexo脚手架</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm install -g hexo-cli</span></span><br></pre></td></tr></table></figure></li>
+<li><p>初始化项目</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="comment"># 安装hexo</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="comment"># 初始化项目</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo init &lt;folder&gt;</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> &lt;folder&gt;</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install</span></span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li><p>启动Hexo</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="comment"># 新建一篇文章</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo new <span class="string">&quot;first Article&quot;</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="comment"># generate</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo generate</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="comment"># 发表草稿</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo publish publish</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="comment"># 启动Hexo</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo s</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="comment"># 部署Hexo</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo d</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h2 id="Ayer"><a href="#Ayer" class="headerlink" title="Ayer"></a>Ayer</h2><blockquote>
+<p><a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> 是一个干净且优雅的 Hexo 主题，自带响应式，加载速度很快，该有的功能都有，可配置项很多，非常适合作为你的博客主题，主题内还附送了 6 张精美的高清壁纸。欢迎使用和 Star 支持，如果你在使用过程中有任何疑问或者建议，欢迎联系我！如果你的博客采用了本主题，欢迎在下面评论区留下地址~</p>
+</blockquote>
+<h3 id="HEXO是一个拓展度很高的项目Ayer作为其中非常好的一个主题支持了包括标签-评论等等拓展-具体可以去项目中学习学习"><a href="#HEXO是一个拓展度很高的项目Ayer作为其中非常好的一个主题支持了包括标签-评论等等拓展-具体可以去项目中学习学习" class="headerlink" title="HEXO是一个拓展度很高的项目Ayer作为其中非常好的一个主题支持了包括标签,评论等等拓展.具体可以去项目中学习学习"></a>HEXO是一个拓展度很高的项目<a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a>作为其中非常好的一个主题支持了包括<code>标签</code>,<code>评论</code>等等拓展.具体可以去项目中学习学习</h3></li>
+</ul>
+<p>​    </p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>HEXO</tag>
+      </tags>
+  </entry>
+</search>
